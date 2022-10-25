@@ -22,4 +22,14 @@ Since I want to use TailWind CSS framework for the project I want to install and
 Resources:
 - [NPM Crash Course by Traversy Media](https://youtu.be/jHDhaSSKmB0)
 - [NPM commands from the video above](https://gist.github.com/bradtraversy/09177818de0f43a6e74e2cd05d1fe596)
-- 
+
+### TailWind CSS
+I've used Bootstrap and Bulma in the past but I wanted to try something different so I picked TailWind CSS - a utility framework. Used NPM to install it and then compile the output CSS on every document save.
+
+Resources:
+- [Tailwind homepage](https://tailwindcss.com)
+- [Tailwind documentation](https://tailwindcss.com/docs/)
+- [Tailwind Crash Course | Project From Scratch by Traversy Media](https://youtu.be/dFgzHOX84xQ)
+
+### Color palette
+- [Colormind.io](http://colormind.io/)
