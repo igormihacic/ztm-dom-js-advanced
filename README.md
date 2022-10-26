@@ -29,7 +29,7 @@ I've used Bootstrap and Bulma in the past but I wanted to try something differen
 Resources:
 - [Tailwind homepage](https://tailwindcss.com)
 - [Tailwind documentation](https://tailwindcss.com/docs/)
-- [Tailwind Crash Course | Project From Scratch by Traversy Media](https://youtu.be/dFgzHOX84xQ) - You'll get a good idea on how to install (NPM) and build a production CSS file (just the classes you need and minified) and also how to use the classes. Of course you need some milage to write code seamlessly but with practice comes mastery ;) The docs and the browser DevTools are your very best friends beside uncle google! :P
+- [Tailwind Crash Course - Project From Scratch by Traversy Media](https://youtu.be/dFgzHOX84xQ) - You'll get a good idea on how to install (NPM) and build a production CSS file (just the classes you need and minified) and also how to use the classes. Of course you need some milage to write code seamlessly but with practice comes mastery ;) The docs and the browser DevTools are your very best friends beside uncle google! :P
 
 ### Color palette
 - [Colormind.io](http://colormind.io/)
