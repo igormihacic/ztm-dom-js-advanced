@@ -11,8 +11,8 @@
     "type": "git",
     "url": "git+https://github.com/igormihacic/ztm-dom-js-advanced.git"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Igor Mihačič",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/igormihacic/ztm-dom-js-advanced/issues"
   },

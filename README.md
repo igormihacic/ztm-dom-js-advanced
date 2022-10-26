@@ -6,7 +6,7 @@ You can find the basic project here:
 https://github.com/igormihacic/ztm-dom-js-basic
 
 ## The goal of this extended exercise
-I'm trying to learn more then just the skills to complete the exercise so to be short I'll put down my learning goals and to be useful also under every goal some references to additional learning materials that I found useful for me.
+I'm trying to learn more then just the skills to complete the exercise so to be short I'll put down my learning goals and to be useful also under every goal some references to additional learning materials that I found useful for me (more or less these are my notes for later reference but you can make use of them).
 
 ### Version control with git and GitHub
 Although this is a one man project I want to get used to git and git CLI commands.
@@ -29,7 +29,7 @@ I've used Bootstrap and Bulma in the past but I wanted to try something differen
 Resources:
 - [Tailwind homepage](https://tailwindcss.com)
 - [Tailwind documentation](https://tailwindcss.com/docs/)
-- [Tailwind Crash Course | Project From Scratch by Traversy Media](https://youtu.be/dFgzHOX84xQ)
+- [Tailwind Crash Course | Project From Scratch by Traversy Media](https://youtu.be/dFgzHOX84xQ) - You'll get a good idea on how to install (NPM) and build a production CSS file (just the classes you need and minified) and also how to use the classes. Of course you need some milage to write code seamlessly but with practice comes mastery ;) The docs and the browser DevTools are your very best friends beside uncle google! :P
 
 ### Color palette
 - [Colormind.io](http://colormind.io/)
