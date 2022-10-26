@@ -24,7 +24,7 @@
 					<h2 class="text-c2 text-2xl font-semibold">
 						Let's do something useful today:
 					</h2>
-					<form class="mt-3">
+					<form id="addTask" class="mt-3">
 						<div class="flex">
 							<input
 								type="text"
@@ -41,34 +41,7 @@
 					</form>
 				</div>
 			</header>
-			<main id="list" class="flex-auto p-6 pt-0">
-				<div class="listItem flex flex-row">
-					<div class="task flex-1 bg-c2 rounded-lg p-2 my-1 border border-c2">
-						<input
-							type="text"
-							name=""
-							id=""
-							class="form-input p-0 m-0 bg-transparent border-0 focus:ring-transparent"
-							value="Test task 1"
-						/>
-					</div>
-					<div
-						class="edit flex-none bg-c5 rounded-lg p-2 m-1 ml-2 text-c1 w-16 text-center cursor-pointer hover:bg-c1 hover:border hover:border-c5 hover:text-c5"
-					>
-						Edit
-					</div>
-					<div
-						class="done flex-none bg-c5 rounded-lg p-2 m-1 text-c1 w-16 text-center cursor-pointer hover:bg-c1 hover:border hover:border-c5 hover:text-c5"
-					>
-						Done
-					</div>
-					<div
-						class="delete flex-none bg-c5 rounded-lg p-2 m-1 mr-0 text-c1 w-16 text-center cursor-pointer hover:bg-c1 hover:border hover:border-c5 hover:text-c5"
-					>
-						Delete
-					</div>
-				</div>
-			</main>
+			<main id="taskList" class="flex-auto p-6 pt-0"></main>
 			<footer class="text-xs p-6 pt-0">
 				<p class="pt-4 border-t border-c3 text-center border-dotted">
 					My footer
@@ -76,5 +49,33 @@
 			</footer>
 			<!-- END of container -->
 		</div>
+		<script src="script/app.js"></script>
 	</body>
 </html>
+
+<!-- <div class="listItem flex flex-row">
+	<div class="task flex-1 bg-c2 rounded-lg p-2 my-1 border border-c2">
+		<input
+			type="text"
+			name=""
+			id=""
+			class="form-input p-0 m-0 bg-transparent border-0 focus:ring-transparent"
+			value="Test task 1"
+		/>
+	</div>
+	<div
+		class="edit flex-none bg-c5 rounded-lg p-2 m-1 ml-2 text-c1 w-16 text-center cursor-pointer hover:bg-c1 hover:border hover:border-c5 hover:text-c5"
+	>
+		Edit
+	</div>
+	<div
+		class="done flex-none bg-c5 rounded-lg p-2 m-1 text-c1 w-16 text-center cursor-pointer hover:bg-c1 hover:border hover:border-c5 hover:text-c5"
+	>
+		Done
+	</div>
+	<div
+		class="delete flex-none bg-c5 rounded-lg p-2 m-1 mr-0 text-c1 w-16 text-center cursor-pointer hover:bg-c1 hover:border hover:border-c5 hover:text-c5"
+	>
+		Delete
+	</div>
+</div> -->
