@@ -52,15 +52,28 @@ function addTask(task) {
 	);
 	editSaveBtn.appendChild(document.createTextNode("Edit"));
 	divTaskContainer.appendChild(editSaveBtn);
+	// listener and edit/save action
+	editSaveBtn.addEventListener("click", (e) => {
+		if (editSaveBtn.innerText === "Edit") {
+			editSaveBtn.innerText = "Save";
+			divTaskInput.disabled = false;
+			divTaskInput.focus();
+		} else {
+			editSaveBtn.innerText = "Edit";
+			divTaskInput.disabled = true;
+		}
+	});
 
 	// done btn div
 	const doneBtn = document.createElement("div");
 	doneBtn.setAttribute(
 		"class",
-		"done flex-none bg-c5 rounded-lg p-2 m-1 ml-2 text-c1 w-16 text-center cursor-pointer hover:bg-c1 hover:border hover:border-c5 hover:text-c5"
+		"done flex-none bg-c5 rounded-lg p-2 m-1 text-c1 w-16 text-center cursor-pointer hover:bg-c1 hover:border hover:border-c5 hover:text-c5"
 	);
 	doneBtn.appendChild(document.createTextNode("Done"));
 	divTaskContainer.appendChild(doneBtn);
+	// listener and done action
+	doneBtn.addEventListener("click", (e) => {});
 
 	// delete btn div
 	const deleteBtn = document.createElement("div");
@@ -70,7 +83,7 @@ function addTask(task) {
 	);
 	deleteBtn.appendChild(document.createTextNode("Delete"));
 	divTaskContainer.appendChild(deleteBtn);
-	// listener for delete action
+	// listener and delete action
 	deleteBtn.addEventListener("click", (e) => {
 		tasksContainer.removeChild(divTaskContainer);
 	});
@@ -78,11 +91,3 @@ function addTask(task) {
 	input.value = "";
 	document.querySelector("#task").focus();
 }
-
-// console.log("Task submited!");
-// console.log(input.value);
-// console.log(input.value.length);
-// console.log("Task length before trim: " + input.value.length);
-// console.log(input.value);
-// console.log("Task length after trim: " + inputValue.length);
-// console.log(inputValue);
