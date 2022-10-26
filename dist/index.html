@@ -4,13 +4,14 @@
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta name="description" content="A demo app" />
 		<title>Fancy ToDo list!</title>
 		<link rel="stylesheet" href="style/main.css" />
 	</head>
-	<body class="bg-c1 text-c4">
+	<body class="bg-c1 text-c4 overflow-y-scroll">
 		<!-- START of container -->
-		<div class="container max-w-3xl mx-auto">
-			<header class="p-6">
+		<div class="container flex flex-col min-h-screen max-w-3xl mx-auto">
+			<header class="p-6 sticky top-0 bg-c1">
 				<h1
 					class="block p-4 text-4xl font-bold text-center border border-c5 rounded-lg"
 				>
@@ -40,10 +41,16 @@
 					</form>
 				</div>
 			</header>
-			<section id="list" class="p-6 pt-0">
+			<main id="list" class="flex-auto p-6 pt-0">
 				<div class="listItem flex flex-row">
 					<div class="task flex-1 bg-c2 rounded-lg p-2 my-1 border border-c2">
-						1
+						<input
+							type="text"
+							name=""
+							id=""
+							class="form-input p-0 m-0 bg-transparent border-0 focus:ring-transparent"
+							value="Test task 1"
+						/>
 					</div>
 					<div
 						class="edit flex-none bg-c5 rounded-lg p-2 m-1 ml-2 text-c1 w-16 text-center cursor-pointer hover:bg-c1 hover:border hover:border-c5 hover:text-c5"
@@ -61,7 +68,12 @@
 						Delete
 					</div>
 				</div>
-			</section>
+			</main>
+			<footer class="text-xs p-6 pt-0">
+				<p class="pt-4 border-t border-c3 text-center border-dotted">
+					My footer
+				</p>
+			</footer>
 			<!-- END of container -->
 		</div>
 	</body>
