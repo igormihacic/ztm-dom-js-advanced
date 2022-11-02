@@ -8,6 +8,8 @@ https://github.com/igormihacic/ztm-dom-js-basic
 ## The goal of this extended exercise
 I'm trying to learn more then just the skills to complete the exercise so to be short I'll put down my learning goals and to be useful also under every goal some references to additional learning materials that I found useful for me (more or less these are my notes for later reference but you can make use of them).
 
+**Some of the topics are covered in later ZTM Course sections but I've included them here (Git, NPM).**
+
 ### Version control with git and GitHub
 Although this is a one man project I want to get used to git and git CLI commands.
 
@@ -33,3 +35,13 @@ Resources:
 
 ### Color palette
 - [Colormind.io](http://colormind.io/)
+
+## Ideas for further improvements
+- visual adjustments for mobile devices
+  - replace Edit, Done and Delete buttons with icons
+  - style adjustments for hover/tap states
+- store list in cookie and/or local storage
+- further optimize JS and make it ES6 compliant
+- implement task re-ordering with drag and drop
+- style improvements for done tasks
+- start using git branches
