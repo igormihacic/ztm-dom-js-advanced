@@ -73,7 +73,9 @@ function addTask(task) {
 	doneBtn.appendChild(document.createTextNode("Done"));
 	divTaskContainer.appendChild(doneBtn);
 	// listener and done action
-	doneBtn.addEventListener("click", (e) => {});
+	doneBtn.addEventListener("click", (e) => {
+		divTaskInput.classList.toggle("line-through");
+	});
 
 	// delete btn div
 	const deleteBtn = document.createElement("div");
